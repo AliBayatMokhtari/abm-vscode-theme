@@ -1,0 +1,8 @@
+.vscode/**
+.zcode/**
+scripts/**
+.github/**
+.gitignore
+**/.DS_Store
+**/*.vsix
+**/*.log

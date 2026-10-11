@@ -1,0 +1,57 @@
+{
+  "name": "abm-vscode-theme",
+  "displayName": "ABM Theme",
+  "description": "A balanced light & dark theme crafted for front-end development — comfortable, colorful, and easy on the eyes.",
+  "version": "1.0.0",
+  "publisher": "ali-bayat-mokhtari",
+  "license": "MIT",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light theme",
+    "dark theme",
+    "front-end",
+    "frontend",
+    "html",
+    "css",
+    "scss",
+    "javascript",
+    "typescript",
+    "react",
+    "vue",
+    "web"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AliBayatMokhtari/abm-vscode-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AliBayatMokhtari/abm-vscode-theme/issues"
+  },
+  "homepage": "https://github.com/AliBayatMokhtari/abm-vscode-theme#readme",
+  "scripts": {
+    "icon": "node scripts/generate-icon.mjs",
+    "check": "node scripts/check-contrast.mjs",
+    "package": "vsce package"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "ABM Light",
+        "uiTheme": "vs",
+        "path": "./themes/abm-light-color-theme.json"
+      },
+      {
+        "label": "ABM Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/abm-dark-color-theme.json"
+      }
+    ]
+  }
+}
