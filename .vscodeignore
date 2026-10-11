@@ -1,5 +1,6 @@
 .vscode/**
 .zcode/**
+.zcodeignore
 scripts/**
 .github/**
 .gitignore

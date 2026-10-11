@@ -38,7 +38,7 @@
   "scripts": {
     "icon": "node scripts/generate-icon.mjs",
     "check": "node scripts/check-contrast.mjs",
-    "package": "vsce package"
+    "package": "npx --yes @vscode/vsce package --no-dependencies"
   },
   "contributes": {
     "themes": [
