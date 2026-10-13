@@ -2,7 +2,7 @@
   "name": "abm-vscode-theme",
   "displayName": "ABM Theme",
   "description": "A balanced light & dark theme crafted for front-end development — comfortable, colorful, and easy on the eyes.",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "publisher": "alibayatmokhtari",
   "license": "MIT",
   "icon": "icon.png",
@@ -81,6 +81,11 @@
         "label": "ABM Storm",
         "uiTheme": "vs-dark",
         "path": "./themes/abm-storm-color-theme.json"
+      },
+      {
+        "label": "ABM Kiln",
+        "uiTheme": "vs-dark",
+        "path": "./themes/abm-kiln-color-theme.json"
       }
     ]
   }

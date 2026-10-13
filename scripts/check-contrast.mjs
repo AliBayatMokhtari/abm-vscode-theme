@@ -73,7 +73,8 @@ const themes = [
   'themes/abm-carbon-color-theme.json',
   'themes/abm-panda-color-theme.json',
   'themes/abm-vampire-color-theme.json',
-  'themes/abm-storm-color-theme.json'
+  'themes/abm-storm-color-theme.json',
+  'themes/abm-kiln-color-theme.json'
 ];
 
 const root = new URL('..', import.meta.url);
@@ -137,7 +138,7 @@ for (const themePath of themes) {
 // package.json contributions must resolve.
 const pkg = JSON.parse(readFileSync(new URL('package.json', root), 'utf8'));
 const contributed = pkg.contributes?.themes ?? [];
-if (contributed.length !== 8) failures.push(`package.json: expected 8 contributed themes, found ${contributed.length}`);
+if (contributed.length !== 9) failures.push(`package.json: expected 9 contributed themes, found ${contributed.length}`);
 const labels = contributed.map((t) => t.label);
 if (new Set(labels).size !== labels.length) failures.push('package.json: duplicate theme labels');
 for (const t of contributed) {

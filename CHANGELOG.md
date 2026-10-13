@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.0] - 2026-10-14
+
+### Added
+
+- **ABM Kiln** theme — an original concept, "a ceramics studio at night": a warm fired-clay canvas (the family's only warm-earth dark) with glaze-inspired accents — cobalt keywords, celadon strings, honey numbers, copper functions, plum types, iron-rust tags — and a copper-glow status bar and accent chrome. Designed from scratch; not based on any existing theme.
+
 ## [1.4.0] - 2026-10-14
 
 ### Added

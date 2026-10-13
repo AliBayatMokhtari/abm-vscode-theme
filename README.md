@@ -10,6 +10,7 @@ A balanced **light & dark theme for Visual Studio Code**, crafted for front-end 
 - **ABM Panda** — *Panda Syntax's spirit, original colors*: a soft gray canvas with candy-pastel syntax (pink keywords, cream strings, light-purple functions, cyan types, salmon tags) and a bold pink accent across the workbench.
 - **ABM Vampire** — *Dracula's spirit, original colors*: a purple-slate night with magenta keywords, green functions, pale-yellow strings, purple constants, and cyan types, finished with a purple accent and status bar.
 - **ABM Storm** — *WebStorm/Darcula's spirit, original colors*: a warm neutral gray IDE feel — orange keywords, olive-green strings, steel-blue numbers, golden functions — with understated chrome and a steel-blue accent.
+- **ABM Kiln** — *an original concept, designed from scratch*: "a ceramics studio at night." A warm fired-clay canvas with glaze-inspired accents — cobalt keywords, celadon strings, honey numbers, copper functions, plum types, iron-rust tags — and a copper-glow status bar. The only warm-earth dark in the family, based on no existing theme.
 
 Every theme is built entirely from original, WCAG-verified colors — none are copies. All share full workbench theming (terminal ANSI, git decorations, diff/merge, testing, and more) and identical front-end token coverage, and each keeps its own accent identity on the chrome.
 
@@ -50,6 +51,7 @@ The same care extends to the workbench: tabs, sidebar, activity bar, status bar,
 | ABM Panda | `#26282E` | `#F78FC6` | `#E5D58F` | `#B99CF0` | `#7BD0DC` | `#FF9E9E` | pink `#F78FC6` |
 | ABM Vampire | `#262437` | `#F381C0` | `#F0EEA8` | `#6FDC86` | `#7FD8E8` | `#F381C0` | purple `#A98BF0` |
 | ABM Storm | `#26272B` | `#E8964F` | `#9DB96A` | `#E8C476` | `#AB8BC8` | `#E8964F` | steel blue `#6FA3DC` |
+| ABM Kiln | `#221C18` | `#82A7EC` | `#9CC7A5` | `#E08B55` | `#C79AD9` | `#EF7B6F` | copper `#E08B55` |
 
 ABM Dark Plus uses VSCode Dark+'s exact syntax colors (`#569CD6` keywords, `#CE9178` strings, `#DCDCAA` functions, `#4EC9B0` types) on an indigo workbench with the violet accent.
 
