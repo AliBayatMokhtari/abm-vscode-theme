@@ -1,5 +1,8 @@
 # ABM Theme
 
+[![Visual Studio Marketplace](https://img.shields.io/badge/VS_Marketplace-install-007ACC?logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=alibayatmokhtari.abm-vscode-theme)
+[![Open VSX](https://img.shields.io/badge/Open_VSX-install-6C6CBF?logo=eclipseche)](https://open-vsx.org/extension/alibayatmokhtari/abm-vscode-theme)
+
 A balanced **light & dark theme for Visual Studio Code**, crafted for front-end development — comfortable, colorful, and easy on the eyes during long coding sessions.
 
 - **ABM Light** — *Warm Paper*: an off-white, cream background with a restrained set of rich accents for comfortable daytime coding.
@@ -16,7 +19,7 @@ Every theme is built entirely from original, WCAG-verified colors — none are c
 
 ## Install
 
-**From the Marketplace** (once published): open the Extensions view (`Ctrl/Cmd+Shift+X`), search for `ABM Theme`, and install.
+**From the marketplace**: get it on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=alibayatmokhtari.abm-vscode-theme) or [Open VSX](https://open-vsx.org/extension/alibayatmokhtari/abm-vscode-theme) — or open the Extensions view (`Ctrl/Cmd+Shift+X`), search for `ABM Theme`, and install.
 
 **From a `.vsix` file**:
 
@@ -69,12 +72,14 @@ npx @vscode/vsce package   # build a .vsix
 
 ## Publishing
 
+The extension is published on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=alibayatmokhtari.abm-vscode-theme) and [Open VSX](https://open-vsx.org/extension/alibayatmokhtari/abm-vscode-theme) under the publisher `alibayatmokhtari`.
+
 ```bash
-npx @vscode/vsce login <publisher>
-npx @vscode/vsce publish
+npx @vscode/vsce publish        # VS Code Marketplace (requires `vsce login <publisher>`)
+npx ovsx publish                # Open VSX (requires an Open VSX access token)
 ```
 
-Make sure `publisher` in `package.json` matches your Marketplace publisher ID. See the [vsce docs](https://code.visualstudio.com/api/working-with-extensions/publishing-extension).
+Make sure `publisher` in `package.json` matches your Marketplace publisher ID. See the [vsce docs](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) and [Open VSX docs](https://github.com/eclipse/openvsx/wiki/Publishing-Extensions).
 
 ## License
 
