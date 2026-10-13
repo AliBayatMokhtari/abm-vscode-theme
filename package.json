@@ -2,7 +2,7 @@
   "name": "abm-vscode-theme",
   "displayName": "ABM Theme",
   "description": "A balanced light & dark theme crafted for front-end development — comfortable, colorful, and easy on the eyes.",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "publisher": "alibayatmokhtari",
   "license": "MIT",
   "icon": "icon.png",
@@ -51,6 +51,41 @@
         "label": "ABM Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/abm-dark-color-theme.json"
+      },
+      {
+        "label": "ABM Dark Plus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/abm-dark-plus-color-theme.json"
+      },
+      {
+        "label": "ABM Dusk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/abm-dusk-color-theme.json"
+      },
+      {
+        "label": "ABM Carbon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/abm-carbon-color-theme.json"
+      },
+      {
+        "label": "ABM Panda",
+        "uiTheme": "vs-dark",
+        "path": "./themes/abm-panda-color-theme.json"
+      },
+      {
+        "label": "ABM Vampire",
+        "uiTheme": "vs-dark",
+        "path": "./themes/abm-vampire-color-theme.json"
+      },
+      {
+        "label": "ABM Storm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/abm-storm-color-theme.json"
+      },
+      {
+        "label": "ABM Kiln",
+        "uiTheme": "vs-dark",
+        "path": "./themes/abm-kiln-color-theme.json"
       }
     ]
   }
