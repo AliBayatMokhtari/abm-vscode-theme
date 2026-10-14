@@ -17,6 +17,16 @@ A balanced **light & dark theme for Visual Studio Code**, crafted for front-end 
 
 Every theme is built entirely from original, WCAG-verified colors — none are copies. All share full workbench theming (terminal ANSI, git decorations, diff/merge, testing, and more) and identical front-end token coverage, and each keeps its own accent identity on the chrome.
 
+## Screenshots
+
+| **ABM Dark** | **ABM Dusk** | **ABM Kiln** |
+| --- | --- | --- |
+| ![ABM Dark theme](images/abm-dark.jpg) | ![ABM Dusk theme](images/abm-dusk.jpg) | ![ABM Kiln theme](images/abm-kiln.jpg) |
+| **ABM Panda** | **ABM Storm** | **ABM Carbon** |
+| ![ABM Panda theme](images/abm-panda.jpg) | ![ABM Storm theme](images/abm-storm.jpg) | ![ABM Carbon theme](images/abm-carbon.jpg) |
+| **ABM Vampire** | **ABM Dark Plus** | **ABM Light** |
+| ![ABM Vampire theme](images/abm-vampire.jpg) | ![ABM Dark Plus theme](images/abm-dark-plus.jpg) | ![ABM Light theme](images/abm-light.jpg) |
+
 ## Install
 
 **From the marketplace**: get it on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=alibayatmokhtari.abm-vscode-theme) or [Open VSX](https://open-vsx.org/extension/alibayatmokhtari/abm-vscode-theme) — or open the Extensions view (`Ctrl/Cmd+Shift+X`), search for `ABM Theme`, and install.
